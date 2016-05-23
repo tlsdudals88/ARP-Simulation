@@ -1,0 +1,177 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 357, 304
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "1조(2008270365_신영민) ARP Project"
+MENU IDR_MENU1
+FONT 12, "System", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST5,41,201,46,85,NOT LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST6,87,201,30,85,NOT LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST7,117,201,28,85,NOT LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST8,145,201,31,85,NOT LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST9,176,201,64,85,NOT LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST10,241,201,78,85,NOT LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_STATICEDGE
+    CTEXT           "State",IDC_STATIC,41,191,47,9,SS_SUNKEN
+    CTEXT           "Attempt",IDC_STATIC,88,191,30,9,SS_SUNKEN
+    CTEXT           "Queue",IDC_STATIC,118,191,27,9,SS_SUNKEN
+    CTEXT           "Time-out",IDC_STATIC,145,191,31,9,SS_SUNKEN
+    CTEXT           "IP Address",IDC_STATIC,176,191,64,9,SS_SUNKEN
+    CTEXT           "Physical Address",IDC_STATIC,241,191,78,9,SS_SUNKEN
+    GROUPBOX        "캐시테이블",IDC_STATIC,35,181,291,116,BS_FLAT
+    RTEXT           "# Attempt : 5번",IDC_STATIC,4,10,67,8
+    RTEXT           "# Time-Out : 300초 후 ",IDC_STATIC,102,10,78,8
+    CTEXT           "ARP_Simulation",IDC_STATIC,139,24,80,8
+    RTEXT           "# Address : 고려대학교(세종) 주소 ",IDC_STATIC,187,10,133,8
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 224, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "IP 주소 입력"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,47,50,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,124,50,50,14
+    CTEXT           "목적지의 IP Address 입력 :",IDC_STATIC,16,32,93,11
+    LTEXT           "Broadcasting으로 목적지의 Mac Address 요청",IDC_STATIC,19,13,189,8
+    EDITTEXT        IDC_EDIT4,114,31,89,13,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 350
+        TOPMARGIN, 10
+        BOTTOMMARGIN, 297
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 217
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "메뉴"
+    BEGIN
+        MENUITEM "시작",                          ID_MENUITEM_START
+        MENUITEM "종료",                          ID_MENUITEM_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "bitmap1.bmp"
+IDB_BITMAP2             BITMAP                  "bitmap2.bmp"
+IDB_BITMAP3             BITMAP                  "bitmap3.bmp"
+IDB_BITMAP4             BITMAP                  "bitmap4.bmp"
+IDB_BITMAP5             BITMAP                  "bitmap5.bmp"
+IDB_BITMAP6             BITMAP                  "bitmap6.bmp"
+IDB_BITMAP7             BITMAP                  "bitmap7.bmp"
+IDB_BITMAP8_5           BITMAP                  "bitmap8_5.bmp"
+IDB_BITMAP9             BITMAP                  "bitmap9.bmp"
+IDB_BITMAP9_1           BITMAP                  "bitmap9_1.bmp"
+IDB_BITMAP7_1           BITMAP                  "bitmap7_1.bmp"
+IDB_BITMAP7_2           BITMAP                  "bitmap7_2.bmp"
+IDB_BITMAP7_3           BITMAP                  "bitmap7_3.bmp"
+IDB_BITMAP7_4           BITMAP                  "bitmap7_4.bmp"
+IDB_BITMAP7_5           BITMAP                  "bitmap7_5.bmp"
+IDB_BITMAP8             BITMAP                  "bitmap8.bmp"
+IDB_BITMAP8_1           BITMAP                  "bitmap8_1.bmp"
+IDB_BITMAP8_2           BITMAP                  "bitmap8_2.bmp"
+IDB_BITMAP8_3           BITMAP                  "bitmap8_3.bmp"
+IDB_BITMAP8_4           BITMAP                  "bitmap8_4.bmp"
+IDB_BITMAP9_2           BITMAP                  "bitmap9_2.bmp"
+IDB_BITMAP9_3           BITMAP                  "bitmap9_3.bmp"
+IDB_BITMAP9_4           BITMAP                  "bitmap9_4.bmp"
+IDB_BITMAP9_5           BITMAP                  "bitmap9_5.bmp"
+IDB_BITMAP0             BITMAP                  "bitmap0.bmp"
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

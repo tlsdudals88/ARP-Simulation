@@ -1,0 +1,38 @@
+﻿빌드 시작: 2012-07-04 오전 12:32:54
+     1>2 노드의 "F:\2008270365_신영민_ARP_Simualtor\ARP 소스코드\ARP.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>_PrepareForClean:
+         ".\Debug\ARP.lastbuildstate" 파일을 삭제하고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 ".\Debug\ARP.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt arp.cpp Server.cpp
+         Server.cpp
+         arp.cpp
+         코드를 생성하고 있습니다...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0412" /nologo /fo".\Debug\resource.res" resource.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\ARP.exe.embed.manifest.res" .\Debug\ARP_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\ARP.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\ARP.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\2008270365_신영민_ARP_Simualtor\ARP 소스코드\Debug\ARP.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\ARP.lib" /MACHINE:X86 .\Debug\resource.res
+         .\Debug\ARP.exe.embed.manifest.res
+         .\Debug\arp.obj
+         .\Debug\Server.obj
+       Manifest:
+         ".\Debug\ARP.exe.embed.manifest" 파일을 삭제하고 있습니다.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\ARP.exe.embed.manifest" /manifest .\Debug\ARP.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\ARP.exe.embed.manifest.res" .\Debug\ARP_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\ARP.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\ARP.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\2008270365_신영민_ARP_Simualtor\ARP 소스코드\Debug\ARP.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\ARP.lib" /MACHINE:X86 .\Debug\resource.res
+         .\Debug\ARP.exe.embed.manifest.res
+         .\Debug\arp.obj
+         .\Debug\Server.obj
+         ARP.vcxproj -> F:\2008270365_신영민_ARP_Simualtor\ARP 소스코드\.\Debug\ARP.exe
+       FinalizeBuildStatus:
+         ".\Debug\ARP.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         ".\Debug\ARP.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"F:\2008270365_신영민_ARP_Simualtor\ARP 소스코드\ARP.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:10.45
